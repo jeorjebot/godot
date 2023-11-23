@@ -56,7 +56,7 @@ Everything you need to know is in the help message.
 
 During the first execution, **godot** will create a directory in your home directory called `.godot` and a file called `godot_history.log` inside it. This file will contain all the tasks you will add.
 
-## Client and Daemon
+## Client and Server
 The first invocation of `godot` starts also the `godot` server, which will execute the tasks you added (or the command you prompted). 
 
 If no tasks are enqueued, or if all the tasks are completed, the server will shutdown in 1 minute.
